@@ -1,0 +1,246 @@
+:root{
+    --primary-color:#800c0c;;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:1536px ;
+    height: 731px;
+}
+
+.card{
+    background-image: url('../../assets/image/Lenticular-Patagonia-600.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 1228px;
+    height: 731px;
+    color: #c4b5b5d6;
+}
+.header{
+    padding-left: 24px;
+    padding-top: 30px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.navbar{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.navbar nav{
+    background-color: #fff;
+    padding-top: 10px;
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+a:hover{
+    color: var(--primary-color);
+}
+
+li.active a{
+    color: var(--primary-color);
+}
+
+
+.personal-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 150px;
+    border: 1px solid #6244444a;
+    background-color:  #050505c4; 
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.phone-list{
+    padding-left: 20px;
+}
+ 
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.phone h3{
+    padding-left: 13px;
+}
+
+.number p{
+   padding-top: 20px;
+}
+
+.mid{
+    width: 240px;
+    height: 175px;
+    border: 1px solid #6244444a;
+    background-color: #050505c4; 
+    
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+.email h3{
+    padding-left: 29px;
+}
+
+.address{
+  padding-left: 20px;
+  padding-top: 30px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    
+}
+
+.right{
+    width: 240px;
+    height: 150px;
+    border: 1px solid #6244444a;
+    background-color: #050505c4;
+}
+
+.website{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.website h3{
+    padding-left: 10px;
+}
+
+.web-name{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+
+
+
+.detail{
+    width: 1228px;
+    display: flex;
+   padding-top: 35px;
+    height: 300px;
+   padding-left: 15px;
+   padding-bottom: 10px;
+}
+
+.left-container{
+    width: 609px;
+}
+
+.map iframe{
+    border: 0px;
+    width: 609px;
+    height: 300px;
+
+}
+
+
+.right-container{
+    width: 609px;
+    padding-left: 10px;
+}
+
+.name input{
+    width: 585px;
+    height: 45px;
+}
+.e-mail{
+   padding-top: 10px;
+}
+
+.e-mail input{
+    width: 585px;
+    height: 45px;
+}
+
+.message{
+    padding-top: 10px;
+}
+
+.message input{
+    width: 585px;
+    padding-bottom: 100px;
+}
+.send{
+    padding-top: 10px;
+}
+
+.send button{
+    width: 590px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: aliceblue;
+}
+
+
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: black;
+}
+
+.text{
+    display:flex;
+    align-items: center;
+}
+
+.text p{
+    padding-left: 4px;
+}
+
+.social-list{
+    width: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

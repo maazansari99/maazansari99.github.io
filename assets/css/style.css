@@ -1,0 +1,254 @@
+:root{
+    --primary-color:rgba(86, 5, 21, 0.953);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1536px;
+    height: 731px;
+    background-color: black;
+   
+}
+.head-container{
+   width: 1536px;
+   height: 70px;
+   background-color: var(--parimary-color);
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    color: antiquewhite;
+    width: 112px;
+    height: 50px;
+    background-color:var(--primary-color);
+    display: flex;
+     align-items: center;
+    border: 5px solid black;
+}
+
+.navbar{
+   width: 500px;
+   height: 50px;
+   font-size: 20px;
+   list-style-type: none;
+   padding-right: 80px;
+}
+
+.navbar nav{
+   background-color: #fff;
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+  
+}
+
+ul{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10px;
+   list-style-type: none;
+}
+a:hover{
+   color: var(--parimary-color);
+}
+
+li.active a{
+   color: var(--parimary-color);
+}
+
+
+
+.card{
+    background-color: #1615157d;
+    width: 1400px;
+    height: 604px;
+    display: flex;
+    color:antiquewhite;
+    border-radius: 15px;
+    margin-left: 55px;
+    overflow: hidden;
+    place-items: center;
+    position: relative;
+}
+
+.card::before{
+   content: '';
+   width:1400px;
+   height: 600px;
+   left: 10px;
+   top: -70px;
+   position: absolute;
+   background: linear-gradient(rgba(86, 5, 21, 0.953),rgba(86, 5, 21, 0.953));
+   animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate{
+   0%  {transform: rotate(0deg);}
+   100%  {transform: rotate(200deg);}
+
+}
+
+.card::after{
+   content: '';
+   position: absolute;
+   inset: 10px;
+   background: black;
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+ .left-container{
+    width: 690px;
+    height: 604px;
+    font-style: italic;
+    position: relative;
+    z-index: 100;
+
+ }
+
+ .top{
+    width: 690px;
+    height: 285px;
+   
+ }
+
+ .name{
+   padding-left: 50px;
+   height: 200px;
+ }
+
+ .surname{
+    display: flex;
+    align-items: center;
+     font-size: 22px;
+     height: 50px;
+ }
+
+ .surname p{
+    font-size: initial;
+ }
+
+ .name h1{
+    font-size: 86px;
+     margin: 0;
+     padding-left: 150px;
+ }
+
+ .lastname{
+    display: flex;
+    align-items: center;
+     font-size: 22px;
+     padding-left: 374px;
+ }
+ 
+
+ .lastname p{
+    font-size: initial;
+ }
+
+
+ .place{
+   padding-left: 50px;
+ }
+ 
+
+.bottom{
+   width: 690px;
+   height: 385px;
+}
+
+.heading{
+   padding-left: 20px;
+   padding-top: 28px;
+}
+
+.interest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.web-developer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ .web{
+    background: var(--primary-color);
+    width: 90px;
+    height: 89px;
+    font-size: 83px;
+    padding: 20px;
+ }
+
+.gym p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ .fitness{
+    background:var(--primary-color);
+    width: 90px;
+    height: 89px;
+    font-size: 74px;
+    padding: 20px;
+ }
+
+ .playing p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+ }
+ .football{
+    background: var(--primary-color);
+    width: 90px;
+    height: 89px;
+    font-size: 87px;
+    padding-left: 4px;
+    padding: 20px;
+ }
+
+
+ .right-container{
+    width: 690px;
+    height: 604px;
+    position: relative;
+    z-index: 200;
+ }
+  
+ .image{
+   width: 710px;
+   height: 604px;
+   overflow: hidden;
+   object-fit: cover;
+ }
+
+ .image img{
+   width: 698px;
+   height: 591px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    
+ }
