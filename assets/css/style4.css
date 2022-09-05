@@ -78,6 +78,7 @@ li.active a{
     height: 150px;
     border: 1px solid #6244444a;
     background-color:  #050505c4; 
+    text:white;
 }
 
 .profile img{
@@ -99,9 +100,20 @@ li.active a{
     padding-left: 13px;
 }
 
-.number p{
+.number {
    padding-top: 20px;
 }
+
+.number a{
+    color: #fff;
+    text-decoration-line: none;
+}
+
+
+.number a:hover{
+    color:var(--primary-color);
+}
+
 
 .mid{
     width: 240px;
@@ -123,10 +135,20 @@ li.active a{
 }
 
 .address{
-  padding-left: 20px;
-  padding-top: 30px;
+  padding-left: 35px;
+  padding-top: 35px;
 
 }
+
+.address a{
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.address a:hover{
+    color:var(--primary-color);
+}
+
 .social{
     display: flex;
     justify-content: space-evenly;
@@ -153,8 +175,17 @@ li.active a{
 }
 
 .web-name{
-    padding-left: 20px;
-    padding-top: 25px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+.web-name a{
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.web-name a:hover{
+    color:var(--primary-color);
 }
 
 
