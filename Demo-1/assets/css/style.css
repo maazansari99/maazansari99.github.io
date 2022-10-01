@@ -1,0 +1,365 @@
+
+
+
+header{
+    height: 75px;
+}
+
+
+.logo-container{
+    height: 50px;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    gap: 45px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 20px;
+}
+
+.circle span{
+    width: 18px;
+    height: 18px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: #f6932f;
+}
+
+.delivery{
+    width: 230px;
+    height: 40px;
+    background: #fce8df;
+    border-radius: 25px;
+}
+
+.bike-img{
+    width: 35px;
+    height: 35px;
+}
+
+.bike-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.head-line{
+    font-size: 86px;
+}
+
+.for-color{
+    color: #ef8112;
+}
+
+.btn-container button{
+    background: #ef8112;
+    border: none;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.main-bg{
+    position: relative;
+}
+.bg-box{
+    width: 400px;
+    height: 520px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(211,211,211,1) 100%);    z-index: 1000;
+    position: absolute;
+    right: 0px;
+    border-radius: 15px;
+    top: -26px;
+}
+
+.for-bg{
+    position: relative;
+    z-index: 2000;
+}
+
+.burger{
+    border-radius: 30px;
+    width: 200px;
+    height: 230px;
+    position: relative;
+}
+
+.image-1{
+    position: absolute;
+    top: -55px;
+}
+
+.image-1 img{
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.dish-one{
+    position: relative;
+   top: 108px;
+}
+
+.arrow button{
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    background:  #211e3e;
+    color: white;
+}
+
+.arrow-1 {
+    width: 25px;
+    height: 25px;
+}
+
+.arrow-2 button {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: black;
+}
+
+.pizza{
+    border-radius: 30px;
+    width: 200px;
+    height: 230px;
+    position: relative;
+}
+
+.image-2{
+    position: absolute;
+    top: -55px;
+}
+
+.image-2 img{
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.dish-two{
+    position: relative;
+    top: 108px;
+}
+
+.cake{
+    border-radius: 30px;
+    width: 200px;
+    height: 230px;
+    position: relative;
+}
+
+.image-3{
+    position: absolute;
+    top: -55px;
+}
+
+.image-3 img{
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.dish-three{
+    position: relative;
+    top: 108px;
+}
+
+.Food-Dish{
+    border-radius: 30px;
+    width: 200px;
+    height: 230px;
+    position: relative;
+}
+
+.image-4{
+    position: absolute;
+    top: -55px;
+}
+
+.image-4 img{
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.dish-four{
+    position: relative;
+    top: 108px;
+}
+
+.orange{
+    width: 360px;
+    background-color: #f0f0f0;
+border-radius: 20px;
+height: 220px;
+position: relative;
+}
+
+.org-image img{
+    position: absolute;
+    top: -70px;
+    left: -55px;
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.fruit-one{
+    width: 100%;
+    padding-right: 27px;
+    padding-top: 33px;
+}
+
+.cart{
+    width: 35px;
+    height: 35px;
+    background: red;
+    border-radius: 50%;
+}
+
+.cart i{
+    color: #fff;
+    height: 100%;
+}
+
+.price{
+    width: 115px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+}
+.add button{
+    background: #211e3e;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+}
+
+.rating i{
+    color: #fb8602;
+}
+
+
+.staw{
+    width: 360px;
+    background-color: #f0f0f0;
+border-radius: 20px;
+height: 220px;
+position: relative;
+}
+
+.staw-image img{
+    position: absolute;
+    top: -44px;
+    left: -55px;
+    filter: drop-shadow(1px 10px 10px gray);
+}
+
+.fruit-one{
+    width: 100%;
+    padding-right: 27px;
+    padding-top: 33px;
+}
+
+.cart-2{
+    width: 35px;
+    height: 35px;
+    background: red;
+    border-radius: 50%;
+}
+
+.cart-2 i{
+    color: #fff;
+    height: 100%;
+}
+
+.price{
+    width: 115px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+}
+
+.add button{
+    background: #211e3e;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+}
+
+.rating i{
+    color: #fb8602;
+}
+
+.pome{
+    width: 360px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    height: 220px;
+    position: relative;
+}
+
+.pome-image img{
+    position: absolute;
+    top: -44px;
+    left: -55px;
+   filter: drop-shadow(1px 10px 10px gray);
+}
+
+.fruit-one{
+    width: 100%;
+    padding-right: 27px;
+    padding-top: 33px;
+}
+
+.cart-3{
+    width: 35px;
+    height: 35px;
+    background: red;
+    border-radius: 50%;
+}
+
+.cart-3 i{
+    color: #fff;
+    height: 100%;
+}
+
+.price{
+    width: 115px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+}
+
+.add button{
+    background: #211e3e;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+}
+
+.rating i{
+    color: #fb8602;
+}
