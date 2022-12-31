@@ -1,0 +1,386 @@
+
+
+.design{
+    
+    width: 418px;
+    height: 662px;
+    position: relative;
+    bottom: 309px;
+    left: 100px;
+    padding-top: 5px;
+    background-color: #97d0ee;
+}
+
+
+.main-container{
+    background: #4d4995;
+}
+
+.website-container{
+  background: #2a2850;
+  width: 1140px;
+}
+
+.left-container{
+    color: white;
+    width: 600px;
+}
+
+.image-container{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.right-container{
+    overflow: hidden;
+    height: 663px;
+    position: relative;
+    left: 137px;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+}
+
+.nav-right
+{
+    padding-top: 49px;
+    padding-right: 169px;
+    color: white;
+    position: relative;
+    z-index:6000;
+}
+
+.for-size{
+    font-size: 50px;
+}
+
+.for-search{
+    position: absolute;
+    top: 69px;
+    height: 45px;   
+    width: 287px;
+    left: 46px;
+    background-color: #2a2850;
+}
+
+.for-search input{
+  color: white;
+
+}
+
+.btn-container button a i {
+    color: white;
+}
+
+.circle-1{
+    background-color: #4b5a81;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+}
+
+.circle-2{
+    background-color: #96cfed;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.mentor-search{
+    width: 380px;
+    height: 180px;
+    position: relative;
+}
+
+.mentor-search p{
+    position: absolute;
+    bottom: 6px;
+    left: 45px;
+    font-size: 14px;
+}
+
+
+.for-bg{
+    background-color: #29284e;
+    width: 150px;
+    height: 45px;
+    border: none;
+    color: white;
+}
+
+.top{
+    position: relative;
+    z-index: 4000;
+    background-color: #97d0ee ;
+}
+
+.space{
+    color: #272556;
+}
+
+.circle-one{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#4b65b2;
+    position: relative;
+bottom: 55px;
+}
+
+.img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#edb264;
+    position: relative;
+    right: 98px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #638df3;
+    transform: rotate(-43deg);
+    position: relative;
+    left: -27px;
+    top: 64px;
+}
+
+.tri-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #638df3;
+    position: absolute;
+}
+
+
+.left{
+    width: 100px; 
+    overflow: hidden;
+}
+
+
+.circle-big{
+    width: 230px;
+    height: 255px;
+    border-radius: 50%;
+    background-color: #78a8f2;
+    position: relative;
+    right: 130px;
+}
+
+.circle-small{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fb9591;
+    position: relative;
+    top: -2px;
+}
+
+.cir-square{
+    width: 50px;
+    height: 50px;
+    background-color:#fb9591;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+.circle-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fe6470;
+    position: absolute;
+    top: -88px;
+}
+
+.square-mid{
+    width: 200px;
+    height: 130px;
+    background-color: #fe6470;
+    position: relative;
+    top: 225px;
+}
+
+.oval{
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+}
+
+
+.u-shape{
+    position: relative;
+    bottom: 7px;
+}
+.small-one{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #f1a0ce;
+    transform: rotate(53deg);
+    position: relative;
+    left: 46px;
+    top: 65px;
+    
+}
+
+.circle-oval{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #f1a0ce;
+    position:relative;
+    z-index: 1000;
+}
+
+.small-two{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #f1a0ce;
+    transform: rotate(-10deg);
+    position: relative;
+    right: 24px;
+    top: -84px;
+}
+
+.rectangle{
+    width: 116px;
+    height: 50px;
+    background: #638df3;
+}
+
+.rect-circle{
+    width: 117px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #638df3;
+}
+
+.balon{
+    position: relative;
+    right: 93px;
+    top: 27px;
+}
+
+.dhol{
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    top: 1px;
+}
+.tri-dhol{
+    width: 100px;
+    height: 100px;
+   background-color:  #638cf3;
+    position: relative;
+}
+.tri-dhol-2{
+    width: 100px;
+    height: 100px;
+    background-color:#4b5a81;
+}
+
+.dhol-circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dhol-circle{
+    width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: #272556;
+position: absolute;
+z-index: 3000;
+overflow: hidden;
+}
+
+
+.bottom{
+    position: relative;
+    bottom: 100px;
+}
+
+.sing{
+   border-radius: 38% 62% 100% 0% / 0% 100% 0% 100% ;
+   background-color:#fec36c;
+   width: 210px;
+   height:200px ;
+}
+
+.pink-circle{
+    border-radius: 38% 62% 100% 0% / 0% 100% 0% 100% ;
+    width: 100px;
+    height: 100px;
+    background-color: #f1a2cf;
+}
+
+.pich{
+    width: 100px;
+   height: 100px;
+   border-radius: 50%;
+    background-color: #fb9591;
+    position: relative;
+}
+
+.pich-tri{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #fb9591;
+    transform: rotate(-112deg);
+    position: relative;
+    left: 9px;
+    top: 34px;
+}
+
+.bottom-right{
+    position: relative;
+    right: 93px;
+    top: 100px;
+}
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #4b5a81;
+    position: relative;
+    overflow: hidden;
+    bottom: 409px;
+}
+
+.circle-shape{
+    width: 100px;
+    height: 100px;
+    background-color: #97d0ee;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+}
