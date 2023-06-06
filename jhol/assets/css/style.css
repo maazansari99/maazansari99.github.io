@@ -1,0 +1,499 @@
+:root{
+    --primary-color:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-jhol{
+    width: 100%;
+}
+
+
+/* ////////////////////////////////////////////////header///////////////////////////////////////////////// */
+.header-part{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background: white;
+    z-index: 1000;
+}
+
+.nav-bar{
+    width: 50%;
+}
+
+.nav-bar ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+  font-size: 25px;
+ text-decoration: none;
+ font-family: 'Courier New', Courier, monospace;
+ color: black;
+ 
+}
+
+
+/* //////////////////////////////////////section/////////////////////////////////////////////////////////////////////////// */
+
+
+.main-container{
+    width: 100%;
+}
+
+
+.jhol-both{
+    width: 100%;
+    height: 700px;
+}
+
+.jhol-both img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.background-owner-img{
+    background-image: url("../../assets/images/owner-bg.webp");
+    width: 100%;
+    height: 1400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ///////////////////////////////article////////////////////////////////////////////////////////// */
+
+
+.our-story{
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+
+.leftside-imageslider{
+   width: 50%;
+   height: 100%;
+}
+
+.rightside-thought{
+    width: 50%;
+    height: 100%;
+}
+
+
+.black-shades{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.slider-image{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.rightside-thought{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-story{
+    padding-left: 155px;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-story p{
+    margin-top:-30px;
+}
+
+
+
+.story-line{
+    font-family: 'Courier New', Courier, monospace;
+    width:450px;
+    font-size: 20px;
+}
+
+
+
+.hari-nayak-owner{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #00000099;
+
+}
+
+
+.hari-nayak-info{
+    width: 900px;
+   color: grey;
+   text-align-last: center;
+}
+
+.hari-name{
+    color:white;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: serif;
+}
+
+.owner-chef{
+    color: white;
+    padding-top: 10px
+}
+
+.space{
+    padding-top: 40px;
+}
+
+
+/* //////////////////////////////////////////menu//////////////////////////////////////////////////////////// */
+
+
+.our-menu{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.menu-image{
+    width: 50%;
+    height: 80%;
+   
+}
+
+.blacked{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.menu-food{
+    width: 50%;
+    height:80%;
+    background: white;
+}
+
+.box-image{
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    right:-3px;
+}
+
+.box-1{
+    width: 100%;
+    height: 186px;
+    display: flex;
+}
+
+.box-2{
+    width: 100%;
+    height:186px;
+    display: flex;
+}
+.box-3{
+    width: 100%;
+    height: 186px;
+    display: flex;
+}
+
+.image-card{
+    width: 189px;
+    height:186px;
+}
+
+.image-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-food{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu{
+    padding-top: 50px;
+    padding-left: 155px;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-item{
+    font-family: 'Courier New', Courier, monospace;
+    width:450px;
+    font-size: 20px;
+}
+
+/* //////////////////////////////////////////aside////////////////////////////////////////////////////////// */
+
+.reservation-contain{
+    width: 100%;
+    height: 600px;
+}
+
+.umberlla-background{
+    background-image: url("../../assets/images/reserv.bg.jpg");
+     width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.reservation{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00000099;
+}
+
+.name-reser p{
+    font-size: 80px;
+    color: white;
+}
+
+.request-line{
+    font-size: 30px;
+    color: gray;
+}
+
+.request-button button{
+    width: 300px;
+    height: 50px;
+    border: 1px solid gray;
+    background: none;
+    margin-top: 30px;
+}
+
+.request-button button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* /////////////////////////////////////////FOOTER/////////////////////////////////////////////////////////////////// */
+
+.footer-contain{
+    width: 100%;
+    height:693px;
+display: flex;
+justify-content: center;
+background-color: #30302f;
+}
+
+.contact-part{
+    width: 980px;
+    height: 693px;
+    /* background: #30302f; */
+    display: flex;
+    padding-top: 80px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.contact-left{
+    width: 50%;
+}
+
+.send-msg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.for-name{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+}
+.for-name input{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    border:1px solid #c7c7c7;
+    padding-left: 5px;
+}
+
+.for-name ::placeholder{
+    color:#c7c7c7;
+}
+
+.for-email{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.for-email input{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    border:1px solid #c7c7c7;
+    padding-left: 5px;
+}
+
+.for-email ::placeholder{
+    color:#c7c7c7;
+}
+
+.for-message{
+    width: 320px;
+    height: 150px;
+    margin-top: 10px;
+}
+.for-message input{
+width: 100%;
+height: 100%; 
+margin-top: 10px;
+background-color: transparent;
+    border:1px solid #c7c7c7;
+    padding-left: 5px;
+}
+ 
+.for-message ::placeholder{
+    color:#c7c7c7;
+}
+
+.botton-send button{
+    border: none;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.address .address-padd{
+    padding-top: 20px;
+}
+
+.timing{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.timing .tim-padd{
+    padding-top: 20px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.contact-us a{
+    color: #c7c7c7;
+}
+.contact-us .cont-padd{
+    padding-top: 20px;
+}
+
+.contact-us span a{
+padding-top: 50px;
+text-decoration: none;
+
+}
+
+.contact-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.for-media{
+    padding-top: 30px;
+}
+
+.enquiry{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.enquiry a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+
+.socail-media{
+   width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.socail-media a{
+   color: #c7c7c7;
+}
+
+.designed{
+    padding-top: 30px;
+}

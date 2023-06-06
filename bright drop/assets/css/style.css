@@ -1,0 +1,59 @@
+:root{
+    --textgray:rgb(91, 79, 79);
+    --headercolor:#134a9c;
+    --bgcolor:#a9a9a94d;
+}
+
+ span{
+    font-size: 40px;
+    color: var(--headercolor);
+ }
+ 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+nav{
+   height: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+.company-name{
+    background-image: url(../../assets/image/engineering-5.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.company-name h1{
+    font-weight: 600;
+}
+.company-name h2{
+    font-weight: 600;
+}
+.bottom-right p a{
+      color: var(--textgray);
+}
+
+.all-link a{
+    color: var(--textgray);
+    text-decoration: none;
+}
+
+

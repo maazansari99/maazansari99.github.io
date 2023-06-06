@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+ <div class="container">
+    <header>
+
+        <div class="header-top">
+            <div class="for-contact d-flex justify-content-between align-items-center">
+               <div class="call">
+                <i class="bi bi-telephone">
+                  <input class="border-0" type="text" placeholder="call:+123 456 789">
+                </i>
+               </div>
+
+               <div class="social-login d-flex">
+                <div class="social d-flex justify-content-between align-items-center me-4">
+                    <a href=""><i class="bi bi-instagram text-dark"></i></a>
+                    <a href=""><i class="bi bi-facebook text-dark"></i></a>
+                    <a href=""><i class="bi bi-twitter text-dark"></i></a>
+                    <a href=""><i class="bi bi-pinterest text-dark"></i></a>
+
+                </div>
+
+                <div class="login-list d-flex">
+                    <div class="login pe-4">
+                        <a href="">
+                            <i class="bi bi-person-fill"></i>login
+                        </a>
+                    </div>
+
+                    <div class="usd d-flex pe-4">
+                       <span>USD </span>
+                        <li class="list-group-item"><i class="bi bi-chevron-down"></i></li>
+                    </div>
+
+                    <div class="eng d-flex pe-4">
+                        <span>Eng</span>
+                        <li class="list-group-item"><i class="bi bi-chevron-down"></i></li>
+                    </div>
+                </div>
+               </div>
+
+            </div>
+
+            <div class="search d-flex align-items-center justify-content-between">
+                <div class="search-bar">
+                    <i class="bi bi-search"></i>
+                    <input class="border-0" type="text" placeholder="Search product">
+                </div>
+
+                <div class="fashion d-flex align-items-center">
+                   <div class="image-logo">
+                    <img src="./assets/image/anasha-logo.png" alt="">
+                   </div>
+                    <h2>ANASHA <span class="color">FASHION</span></h2>
+                </div>
+
+                <div class="shoping d-flex ">
+                    <div class="wishlist d-flex pe-2">
+                        <i class="bi bi-heart pe-2"></i>
+                        <p>MY Wishlist</p>
+                    </div>
+                    <div class="shop d-flex">
+                        <i class="bi bi-cart pe-2"></i>
+                        <p>Rs:164,00</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="header-bottom d-flex justify-content-between align-items-center">
+
+            <div class="left">
+                <nav>
+                    <ul class="for-style d-flex m-0 justify-content-between">
+                        <li>HOME</li>
+                        <li>SALWAR KAMEEZ <i class="bi bi-chevron-down"></i></li>
+                        <li>LEHENGAS <i class="bi bi-chevron-down"></i></li>
+                        <li>LOOKBOOK</li>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="right pe-3">
+                <i class="bi bi-lightbulb-fill"></i>
+                <span>CLEARANCE UP TO 50% OFF</span>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="main-container">
+        
+        <div class="row">
+
+            <div class="col-md-12">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./assets/image/slider images/slide-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/image/slider images/slide-2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/image/slider images/slide-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="new-collection ps-3 pt-3 pb-3">
+                    <div class="image-1 w-100">
+                        <img src="./assets/image/banner images/banner-1.jpg" class="d-block w-100" alt="">
+                        <div class="caption-coll d-flex flex-column align-items-center">
+                            <span class="">NEW COLLECTION</span>
+                            <h1 class="fw-bolder">SHOP WOMEN'S</h1>
+                            <div class="dis-1">
+                                <p>DISCOVER NOW</p>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="new-collection pe-3 pt-3 pb-3">
+                    <div class="image-2 w-100">
+                        <img src="./assets/image/banner images/banner-2.jpg" class="d-block w-100 h-100" alt="">
+                        <div class="caption-birdal d-flex flex-column align-items-center">
+                            <span class="">TRENDING COLLECTION</span>
+                            <h1 class="fw-bolder">SHOP BRIDAL</h1>
+                             <div class="dis-2">
+                                <p>DISCOVER NOW</p>
+                             <div class="line"></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card ms-3 mb-3">
+                    <div class="image-3 w-100">
+                        <img src="./assets/image/banner images/banner-3.jpg" class="d-block w-100 h-100 " alt="">
+                        <div class="caption-summer">
+                            <span class="">SAREE</span>
+                            <h3  class="fw-bolder d-flex flex-column"><span>SUMMER</span><span>SALE-70% OFF</span></h3>
+                             <div class="dis-3">
+                                <p class="ps-3">SHOP NOW</p>
+                             <div class="line"></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="image-4 w-100">
+                        <img src="./assets/image/banner images/banner-4.jpg" class="d-block w-100 h-100 " alt="">
+                        <div class="caption-winter">
+                            <span class="">ACCESSORIES</span>
+                            <h3  class="fw-bolder d-flex flex-column"><span>2019 WINTER</span><span>UPTO 70% OFF</span></h3>
+                             <div class="dis-4 ">
+                                <p class="ps-3">SHOP NOW</p>
+                             <div class="line"></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card me-3 mb-3">
+                    <div class="image-5 w-100 ">
+                        <img src="./assets/image/banner images/banner-5.jpg" class="d-block w-100 h-100 " alt="">
+                        <div class="caption-attire">
+                            <span class="">NEW IN </span>
+                            <h3  class="fw-bolder d-flex flex-column"><span>WOMEN'S</span><span>ATTIRE</span></h3>
+                             <div class="dis-4">
+                                <p class="ps-3">SHOP NOW</p>
+                             <div class="line"></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>    
+
+                <div class="trending">
+                  <div class="trend-product d-flex flex-column align-items-center">
+                     <div class="trend ps-3">
+                      <h2>TRENDING</h2>
+                     </div>
+                      <div class="sell ">
+                          <span class="pe-3">ALL</span>
+                          <span class="">BESTSELLER</span>
+                          <span class="ps-3">NEW</span>
+                      </div>
+                  </div>
+  
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <div class="cloth p-3">
+                                <div class="product-image">
+                                    <img src="./assets/image/product images/product-1-1.jpg"  alt="">
+                                </div>
+                                  <div class="name-cloth d-flex flex-column">
+                                    <span class="ps-3 text-muted">Clothing</span>
+                                    <span>Denim jacket</span>
+                                    <span class="ps-4">$19.99</span>
+                                  </div>
+                                  <div class="list-cloth d-flex justify-content-evenly ps-5 pe-5">
+                                    <div class="list">
+                                        <img src="./assets/image/product images/product-1-1.jpg" class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="list">
+                                        <img src="./assets/image/product images/product-10-1.jpg" class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="list">
+                                        <img src="./assets/image/product images/product-8-1.jpg" class="w-100 h-100" alt="">
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <div class="shoes p-3">
+                                <div class="product-image">
+                                    <img src="./assets/image/product images/product-2-1.jpg" alt="">
+                                </div>
+                                <div class="name-cloth d-flex flex-column">
+                                    <span class="ps-3 text-muted ">Shoes</span>
+                                    <span class="ps-2">Sandals</span>
+                                    <span class="ps-3">$24.99</span>
+                                  </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <div class="clothing p-3">
+                                <div class="product-image">
+                                    <img src="./assets/image/product images/product-3-1.jpg" alt="">
+                                </div>
+                                <div class="name-clothes d-flex flex-column">
+                                    <span class="ps-5 text-muted">Clothing</span>
+                                    <span class="ps-3">Printed sweatshirt</span>
+                                    <span class="for-color ps-5">Now $7.99</span> <p class="ps-5">Was $12.99</p>
+                                  </div>
+                                 
+                            </div>
+                        </div>
+        
+                        <div class="col-md-3">
+                            <div class="clothes p-3">
+                                <div class="product-image">
+                                    <img src="./assets/image/product images/product-4-1.jpg" alt="">
+                                </div>
+                                <div class="name-clothers d-flex flex-column">
+                                    <span class="ps-5 ms-5 text-muted">Clothing</span>
+                                    <span class="ps-2">Linen-blend paper bag trousers</span>
+                                    <span class="ps-5 ms-5">$17.99</span>
+                                  </div>
+                                  <div class="list-cloth d-flex justify-content-evenly ps-5 pe-5 ms-3 me-3">
+                                    <div class="list">
+                                        <img src="./assets/image/product images/./product-4-1.jpg" class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="list">
+                                        <img src="./assets/image/product images/product-12-1.jpg" class="w-100 h-100" alt="">
+                                    </div>
+                                    
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="bg-image">
+                                <div class="deal-container d-flex flex-column justify-content-center">
+                                    <div class="deal-time d-flex flex-column align-items-center">
+                                        <span>LIMITED QUANTITIES</span>
+                                        <h2>DEAL OF THE DAY</h2>
+                                       <div class="timing d-flex gap-4">
+                                        <div class="hrs">
+                                            <span  class="ps-1" >09</span>
+                                            <p>hrs</p>
+                                        </div>
+                                        <p>:</p>
+                                        <div class="mins">
+                                            <span class="ps-1">59</span>
+                                            <p>mins</p>
+                                        </div>
+                                        <p>:</p>
+                                        <div class="secs">
+                                            <span class="ps-1">34</span>
+                                            <p>secs</p>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="deal-cloth d-flex justify-content-center">
+                                        <div class="down">
+                                            <div class="product-image">
+                                                <img src="./assets/image/product-1.jpg" class="" alt="">
+                                            </div>
+                                            <div class="deal-clothes d-flex flex-column">
+                                                <span class="ps-3">Elasticated cotton shorts</span>
+                                                <span class="text-danger ps-5 ms-2">Now $24.99</span> <p class="ps-5 ms-2 text-muted">Was $30.99</p>
+                                                <div class="dis-5 ps-5">
+                                                    <p class="ps-3">SHOP NOW</p>
+                                                 <div class="line bg-dark"></div>
+                                                 </div>
+                                              </div>
+                                        </div>
+                                        <div class="upper">
+                                            <div class="product-image ">
+                                                <img src="./assets/image/product-2.jpg" class="" alt="">
+                                            </div>
+                                            <div class="deal-clothes d-flex flex-column">
+                                                <span class="ps-5 ms-1">Fine-knit jumper</span>
+                                                <span class="text-danger ps-5 ms-3">Now $8.99</span> <p class="ps-5 ms-3 text-muted">Was $17.99</p>
+                                                <div class="dis-6 ps-5">
+                                                    <p class="ps-3">SHOP NOW</p>
+                                                 <div class="line bg-dark"></div>
+                                                 </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                        <div class="col-md-12">
+                           
+
+                                <div class="shiping bg-dark">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="pay d-flex flex-column align-items-center mt-4">
+                                                <i class="bi bi-truck text-warning fs-2 "></i>
+                                                <span class="fw-bold text-light">Payment & Delivery</span>
+                                                <p class="text-muted">Free shiping for orders over $50</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="return d-flex flex-column align-items-center mt-4">
+                                                <i class="bi bi-arrow-clockwise text-warning fs-2"></i>
+                                                <span class="fw-bold text-light">Return & Refund</span>
+                                                <p class="text-muted">free 100% money back guarantee</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="secure d-flex flex-column align-items-center mt-4">
+                                                <i class="bi bi-lock text-warning fs-2"></i>
+                                                <span class="fw-bold text-light">Secure Payment</span>
+                                                <p class="text-muted">100% secure payment</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="quality d-flex flex-column align-items-center mt-4">
+                                                <i class="bi bi-headphones text-warning fs-2"></i>
+                                                <span class="fw-bold text-light">Quality</span>
+                                                <p class="text-muted">Always online Feedback 24/7</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+    
+                                </div>
+                           
+                        </div>
+
+                        <div class="arrival">
+                                  <div class="arrival-head d-flex justify-content-center pt-3">
+                                    <h2>NEW ARRIVALS</h2>
+                                  </div>
+
+                            <div class="row">
+                                
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-5-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Clothing</span>
+                                                <span class="">Tie-detail top</span>
+                                                <span class="for-color ">Now $3.99</span> <p class="">Was $6.99</p>
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-6-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Shoes </span>
+                                                <span class="">Sandals</span>
+                                                <span class="">Now $12.99</span> 
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-7-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Bags</span>
+                                                <span class="">Small bucket bag</span>
+                                                <span class="">$14.99</span>
+                                              </div>
+                                              <div class="list-cloth d-flex justify-content-evenly ps-5 pe-5 ms-3 me-3">
+                                                <div class="list">
+                                                    <img src="./assets/image/product images/product-7-1.jpg" class="w-100 h-100" alt="">
+                                                </div>
+                                                <div class="list">
+                                                    <img src="./assets/image/product images/product-12-1.jpg" class="w-100 h-100" alt="">
+                                                </div>
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-8-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Clothing</span>
+                                                <span class="">Denim jacket</span>
+                                                <span >Now $34.99</span> 
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-9-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Clothing</span>
+                                                <span class="">BShort wrap dress</span>
+                                                <span class="">Now $17.99</span> 
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-10-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Clothing</span>
+                                                <span class="">Biker jacket</span>
+                                                <span class="">$34.99</span>
+                                              </div>
+                                              <div class="list-cloth d-flex justify-content-evenly ps-5 pe-5 ms-3 me-3">
+                                                <div class="list">
+                                                    <img src="./assets/image/product images/./product-10-1.jpg" class="w-100 h-100" alt="">
+                                                </div>
+                                                <div class="list">
+                                                    <img src="./assets/image/product images/product-12-1.jpg" class="w-100 h-100" alt="">
+                                                </div>
+                                                
+                                              </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-11-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">shoes</span>
+                                                <span class="">loafers</span>
+                                                <span class="">Now $9.99</span> 
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="new-arrivals p-3">
+                                            <div class="arrival-image">
+                                                <img src="./assets/image/product images/product-12-1.jpg" alt="">
+                                            </div>
+                                            <div class="caption-arrival d-flex flex-column align-items-center">
+                                                <span class=" text-muted">Clothin</span>
+                                                <span class="">Super Skinny High Jeggings</span>
+                                                <span class="for-color ">Now $12.99</span> <p class="">Was $17.99</p>
+                                              </div>
+                                             
+                                        </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+
+
+                        <div class="brands">
+                            <div class="shop-brand d-flex justify-content-center pb-3 ">
+                                <h3>SHOP BY BRANDS</h3>
+                            </div>
+
+                           <div class="row">
+                            <div class="col-md-2 p-3">
+                                <div class="barrel ">
+                                    <img src="./assets/image/brands/1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-3">
+                                <div class="something ">
+                                    <img src="./assets/image/brands/2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-3">
+                                <div class="brava ">
+                                    <img src="./assets/image/brands/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-3">
+                                <div class="oceanic ">
+                                    <img src="./assets/image/brands/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-3">
+                                <div class="fountain ">
+                                      <img src="./assets/image/brands/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-3">
+                                <div class="black-birds">
+                                    <img src="./assets/image/brands/6.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="limited ms-3 mb-3">
+                                    <div class="time-image w-100">
+                                        <img src="./assets/image/banner images/banner-3.jpg" class="d-block w-100 h-100 " alt="">
+                                        <div class="end-of-season d-flex flex-column align-items-center">
+                                            <span class="">LIMITED TIME ONLY</span>
+                                            <h3  class="fw-bolder d-flex flex-column"><span>END OF SEASON</span><span>SALE-50% OFF</span></h3>
+                                             <div class="dis-3">
+                                                <p class="ps-3">SHOP NOW</p>
+                                             <div class="line"></div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                   <div class="subscribe d-flex flex-column align-items-center">
+                                    <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                                    <span>sign up now for 10% Discount on first order.</span>
+                                    <span>customise my news</span>
+                                    <input  class="mt-4" type="text" placeholder="Enter your Email Address">
+                                    <h4 class="pt-4">SUBSCRIBE</h4>
+                                    <div class="line mb-3 bg-dark"></div>
+                                   </div>
+                            </div>
+
+                           </div>
+
+                        </div>
+
+                        <div class="instagram mt-5 pt-3">
+                            <div class="insta-header d-flex flex-column align-items-center">
+                              <h2 class="m-0">LET US INSPIRE YOU ON INSTAGRAM</h2>
+                              <span class="text-muted"> Donec nec justo eget felis facilisis fermentum</span>
+                            </div>
+
+                            <div class="row pt-3">
+
+                                <div class="col m-2"> 
+                                    <div class="insta-img">
+                                        <img src="./assets/image/instagram/1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col m-2">
+                                    <div class="insta-img">
+                                        <img src="./assets/image/instagram/2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col m-2">
+                                    <div class="insta-img">
+                                        <img src="./assets/image/instagram/3.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col m-2">
+                                    <div class="insta-img">
+                                        <img src="./assets/image/instagram/4.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col m-2">
+                                    <div class="insta-img">
+                                        <img src="./assets/image/instagram/5.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="anasha-inst d-flex flex-column align-items-center pt-4">
+                                    <h3><a class="under" href="">@ANASHA INSTAGRAM</a></h3>
+                                    <div class="line-big bg-dark"></div>
+                                </div>
+
+                            </div>
+
+                      </div>
+                         
+
+                      <div class="more mt-5 bg-dark pt-5">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <h4>ANASHA FASHION</h4>
+                                <div class="img-anasha">
+                                    <img src="./assets/image/anasha-logo.png" class="w-100 h-100" alt="">
+                                </div>
+                                <span>praesent dapibus neque id cursus</span>
+                                <span>ucibus tortor neque egestas augue</span>
+                                <span>eu vulputate magna eros eu erat.</span>
+                                <div class="social d-flex justify-content-between align-items-center me-4 ">
+                                    <a href=""><i class="bi bi-instagram text-light"></i></a>
+                                    <a href=""><i class="bi bi-facebook text-light"></i></a>
+                                    <a href=""><i class="bi bi-twitter text-light"></i></a>
+                                    <a href=""><i class="bi bi-pinterest text-light"></i></a>
+                
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="useful-link d-flex flex-column">
+                                     <h4>USEFUL LINK</h4>
+                                    <a href="">About</a>
+                                    <a href="">how to shop on malla</a>
+                                    <a href="">FAQ</a>
+                                    <a href="">Contact</a>
+                                    <a href="">Log in</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="customer-service d-flex flex-column">
+                                    <h4>CUSTOMER SERVICE</h4>
+                                    <a href="">Payment Methods</a>
+                                    <a href=""> Money-back guarantee</a>
+                                    <a href=""> Returns</a>
+                                    <a href=""> Shipping</a>
+                                    <a href="">Terms and conditionds</a>
+                                    <a href="">Privacy Policy</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="my-account d-flex flex-column">
+                                    <h4>MY ACCOUNT</h4>
+                                    <a href="">Sign in</a>
+                                    <a href="">View cart</a>
+                                    <a href=""> My Wishlist </a>
+                                    <a href="">Track My order</a>
+                                    <a href=""> help</a>
+                                </div>
+                            </div>
+
+
+                            <div class="bottom-last d-flex flex-column align-items-center pt-3 border-top  border-secondary mt-3">
+                                <div class="cards d-flex w-50 justify-content-evenly">
+                                    <div class="image-cards">
+                                        <img src="./assets/image/card/2560px-Apple_Pay_logo.svg.png" class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="image-cards">
+                                        <img src="./assets/image/card/download.jpg"  class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="image-cards">
+                                        <img src="./assets/image/card/download.png "  class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="image-cards">
+                                        <img src="./assets/image/card/p pal.png "  class="w-100 h-100" alt="">
+                                    </div>
+                                    <div class="image-cards">
+                                        <img src="./assets/image/card/Visa_Inc._logo.svg.webp "  class="w-100 h-100" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="img-anasha pt-3">
+                                    <img src="./assets/image/anasha-logo.png"  class="w-100 h-100" alt="">
+                                </div>
+
+                                <div class="copyright text-muted pt-3">
+                                    <p>Copyright 2019 Anasha Fashion <a href="">All Right REserved</a> </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                      </div>
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+ </div>
+
+
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
