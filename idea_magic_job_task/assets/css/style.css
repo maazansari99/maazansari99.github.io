@@ -1,0 +1,1084 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ///////----------------------------HOSPITAL INFO CONTACT------------------------------------------------------////// */
+
+.all-type-contact-process {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.medical-tourism {
+  width: 50px;
+  height: 50px;
+}
+.medical-tourism img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-box-info {
+  width: 240px;
+  display: flex;
+  gap: 5px;
+}
+
+.box-text p {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.box-text p a {
+  text-decoration: none;
+  color: black;
+}
+
+.box-text p a:hover {
+  color: var(--primary-color);
+}
+
+.country-types {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.country-image {
+  width: 70px;
+  height: 70px;
+}
+.country-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.company-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ////////////--------------------------HEADER_ONE---------------------------------------/////////////// */
+
+.main-header-contain {
+  background-color: var(--primary-color);
+}
+
+.header-one-list nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.header-one-list nav ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.header-one-list nav ul a:hover {
+  color: black;
+}
+
+.main-header {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.search-bar-icon {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  background-color: darkblue;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.search-bar-icon input {
+  background-color: darkblue;
+  font-size: 17px;
+  margin: 0px 0px;
+  border: none;
+  color: white;
+}
+
+.search-bar-icon input:focus {
+  outline: none;
+}
+
+.search-bar-icon .fa-magnifying-glass {
+  color: white !important;
+}
+
+/* ////---------------------------------------BANNER IMGAE-----------------------------------------------------------////// */
+
+.hospital-banner {
+  background-image: url("../images/knee-pain.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+.navigation {
+  padding-top: 40px;
+}
+
+.navigation ul {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+
+.navigation ul li span {
+  color: red;
+  padding-left: 10px;
+}
+
+.knee-replacement-details {
+  margin-top: 40px;
+}
+
+.knee-replacement-details h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.knee-replacement-details p {
+  width: 750px;
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
+}
+
+.enquire-now-button {
+  width: 300px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.enquire-now-button button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.enquire-now-button button a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.enquire-now-button button a:hover {
+  color: black;
+}
+
+/* //---------------------------------------------------------------------------/// */
+.container {
+  padding: 0 10px;
+  margin: 0 50px;
+}
+
+/* <!-- ////////////header-two///////////////// --> */
+
+.hospital-process-header {
+  width: 100%;
+  height: 68px;
+  border-bottom: 1px solid gray;
+}
+
+.hospital-process-header ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.hospital-process-header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hospital-process-header a:hover {
+  color: var(--primary-color);
+}
+
+.active-blue {
+  padding-bottom: 20px;
+  border-bottom: 4px solid var(--primary-color);
+}
+
+/* //////////////article/////////////// */
+
+.treatment-overview {
+  width: 100%;
+  display: flex;
+  border-bottom: 2px dotted var(--primary-color);
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+
+.treatment-info {
+  width: 50%;
+}
+
+.treatment-info h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.treatment-info h2 span {
+  color: red;
+}
+
+.treatment-info p {
+  margin-top: 30px;
+  width: 90%;
+  font-family: sans-serif;
+}
+
+.treatment-image {
+  width: 50%;
+}
+
+.overview-image {
+  width: 100%;
+  height: 350px;
+}
+
+.overview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* //////-----------------------------section---------------------------------------///////// */
+
+.process-treatment-details {
+  width: 100%;
+  display: flex;
+}
+
+.process-left {
+  width: 65%;
+}
+
+.all-process-treatment {
+  padding-bottom: 40px;
+  border-bottom: 2px dotted var(--primary-color);
+}
+
+.process-right {
+  width: 35%;
+}
+
+.all-process-treatment p {
+  font-family: sans-serif;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.all-process-treatment h2 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.all-process-treatment span {
+  margin-top: 30px;
+  display: block;
+}
+
+.all-process-treatment ul {
+  margin-top: 30px;
+  margin-left: 15px;
+  line-height: 30px;
+  /* list-style: circle ; */
+  /* color: var(--primary-color); */
+}
+
+.all-process-treatment ul li::before {
+  content: "•";
+  color: var(--primary-color);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.all-process-treatment .dot {
+  color: red;
+  display: inline-block;
+}
+
+.blue-color {
+  color: var(--primary-color);
+}
+
+.question-1 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.treatment-faqs h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.question-2 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.question-3 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.question-4 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.answer-open {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
+  align-items: center;
+  display: flex;
+}
+
+.answer-open p {
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 2px solid var(--primary-color);
+}
+
+.treatment-faqs {
+  padding-bottom: 50px;
+  border-bottom: 2px dotted var(--primary-color);
+}
+
+.treatment-faqs .dot {
+  color: red;
+}
+
+.question-1 span {
+  font-weight: bold;
+}
+.question-2 span {
+  font-weight: bold;
+}
+.question-3 span {
+  font-weight: bold;
+}
+.question-4 span {
+  font-weight: bold;
+}
+
+.need-help-box h2 {
+  margin-top: 20px;
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 35px;
+}
+
+.need-help-box p {
+  margin-top: 20px;
+}
+
+.input-help {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.input-help input {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.input-help input::placeholder {
+  padding-left: 10px;
+}
+
+.requirement-input {
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.requirement-input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.requirement-input input::placeholder {
+  padding-left: 10px;
+}
+
+.send-enquiry {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.send-enquiry button {
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.need-help-box {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width: 310px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 5px 0px;
+}
+                                                 
+
+/* //////////-------------------------------Doctor----------------------------------------///////////// */
+
+
+.top-doctor{
+    background-color: lightblue;
+    padding-bottom: 50px;
+
+}
+
+.box-card-doctor{
+    width: 100%;
+    height: 295px;
+}
+
+.box-card-doctor img{
+    width: 100%;
+    height: 100%;
+}
+
+.doctor-card-name{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.doctor-card-name p{
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.item-doctor{
+    width: 90%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+
+
+
+.box-card-doctor img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.for-gray-color{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.owl-nav{
+    display: none !important;
+}
+
+/* ////////--------------------------------HOSPITAL RECOMMENDED-----------------------------------------------///////// */
+
+.box-card-hospital{
+  width: 100%;
+  height: 295px;
+}
+
+.box-card-hospital img{
+    width: 100%;
+    height: 100%;
+}
+
+.hospital-card-name{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.item{
+    border: 2px dotted red;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.hospital-card-name p{
+    margin-top: 10px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hospital-recommended-contact-us{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hospital-recommended-contact-us p a{
+    color: red;
+}
+
+
+.hospital-recommended-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hospital-recommended-head p{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.hospital-recommended-head h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.hospital-recommended-head h2 span{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+.process-right {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+/* ////////////////////////footer//////////// */
+
+.for-contact {
+  background-color: #3fb7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: relative;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  gap: 10px;
+}
+
+.contact span {
+  font-family: sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.contact h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.in-touch {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.in-btn {
+  background-color: lightblue;
+  height: 45px;
+  width: 165px;
+}
+
+.in-btn button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #107df7;
+}
+
+.in-btn button a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.in-touch span {
+  border-left: 2px solid white;
+  padding-left: 15px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.about-us {
+  background: #0b2432;
+  /* display: flex;
+    align-items: center; */
+  /* padding: 40px 0; */
+}
+
+.top-about {
+  background-image: url("../../assets/images/depositphotos_376280804-stock-illustration-dubai-city-line-art-vector.jpg");
+  display: flex;
+  gap: 125px;
+  padding: 50px 0;
+  border-bottom: 2px solid #4a5a6a;
+}
+
+.top-about ul {
+  list-style-type: "-";
+  color: #0175e0;
+  margin-left: 15px;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.top-about h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.tourism {
+  margin-top: 90px;
+}
+
+.white {
+  color: white;
+  margin-left: 15px;
+}
+
+.bottom {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.hospital-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.name h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.name span {
+  font-family: sans-serif;
+  color: white;
+}
+
+.about-hospital {
+  width: 600px;
+  margin-left: 35px;
+}
+
+.about-hospital h2 {
+  font-family: sans-serif;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.about-hospital p {
+  font-family: sans-serif;
+  color: white;
+  line-height: 25px;
+}
+.social-links {
+  margin: 15px 0 20px 0;
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.social-links .fb-color {
+  color: #3f63b1;
+}
+.social-links .twt-color {
+  color: #1d9cea;
+}
+.social-links .insta-color {
+  color: #c52c98;
+}
+.social-links .yt-color {
+  color: #ff0000;
+}
+
+.our-social {
+  margin-left: 35px;
+}
+
+.our-social span {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services h3 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.services span {
+  color: #2babf3;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.copy-rights-part {
+  background: #35b3fa;
+}
+
+.copy-rights {
+  display: flex;
+  justify-content: space-between;
+  /* background: aqua; */
+  height: 60px;
+  align-items: center;
+}
+
+.left-side span {
+  font-family: sans-serif;
+  color: white;
+}
+
+.right-side {
+  gap: 30px;
+  display: flex;
+}
+
+.right-side span {
+  font-family: sans-serif;
+  color: white;
+}
+
+.box-card {
+  width: 320px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 75px;
+  top: 210px;
+}
+
+.join-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 0;
+}
+
+.join-us .add-user {
+  font-size: 45px;
+  color: #2babf3;
+}
+
+.box-card p {
+  margin: 10px 0 12px 30px;
+}
+
+/* .images{
+    width: 155px;
+    height: 155px;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////Responsive/.////////////////// */
+
+.responsive-header {
+    display: none;
+  }
+  
+  .ham {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .ham img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+  /* .company-info {
+    display: flex;
+  }
+   */
+  .company-info-image {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .company-info-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .company-main-name {
+    margin-left: 10px;
+  }
